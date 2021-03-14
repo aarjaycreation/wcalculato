@@ -4,12 +4,13 @@ body {
   box-sizing: border-box;
   font-family: sans-serif;
   font-weight: normal;
-  background-image: linear-gradient(to right, #00b1f6, #4aff96);
+  background-image:url("back.jpg"); linear-gradient(to right, #00b1f6, #4aff96);
+  
 }
 .grid-calculator {
   display: grid;
-  align-content: center;
-  justify-content: center;
+  align-content:center ;
+  justify-content:left ;
   min-height: 100vh;
   grid-template-columns: repeat(4, 6.2rem);
   grid-template-rows: repeat(6, 6.2rem);
@@ -17,8 +18,9 @@ body {
 .grid-calculator button {
   border: 1px solid white;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255,255,0.3 ,0.3 );
   font-size: 2rem;
+ 
 }
 .grid-calculator button:hover {
   background-color: rgba(255, 255, 255, 0.9);
@@ -28,7 +30,7 @@ body {
 }
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(128, 128, 128, 0.75);
   color: rgba(255, 255, 255, 0.9);
   text-align: right;
   align-items: center;
